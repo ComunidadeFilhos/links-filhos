@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4; /* Branco leve de fundo */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px; /* Largura perfeita para celular */
+    text-align: center;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.logo-placeholder {
+    font-size: 50px;
+    color: #001f3f; /* Azul Marinho */
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #001f3f;
+    font-size: 1.5rem;
+}
+
+header p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Seção de Avisos */
+.avisos {
+    background-color: #001f3f;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    border-bottom: 4px solid #FFD700; /* Amarelo */
+}
+
+.avisos h3 {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.grade-horarios {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.85rem;
+}
+
+/* Botões */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn:hover {
+    transform: scale(1.02);
+}
+
+.principal {
+    background-color: #FFD700; /* Amarelo */
+    color: #001f3f;
+}
+
+.secundario {
+    background-color: white;
+    color: #001f3f;
+    border: 1px solid #001f3f;
+}
+
+.divisor {
+    margin: 20px 0 10px;
+    font-size: 0.8rem;
+    color: #001f3f;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+    line-height: 0.1em;
+}
+
+.divisor span {
+    background: #f4f4f4;
+    padding: 0 10px;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.7rem;
+    color: #999;
+}
