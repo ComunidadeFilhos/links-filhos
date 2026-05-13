@@ -145,3 +145,10 @@ footer {
     font-size: 0.75rem;
     color: #888;
 }
+.btn:hover {
+    transform: scale(1.02);
+}
+.btn:active {
+    transform: scale(0.96); /* Faz o botão diminuir levemente ao clicar */
+    transition: 0.1s;       /* Deixa o clique mais rápido e realista */
+}
